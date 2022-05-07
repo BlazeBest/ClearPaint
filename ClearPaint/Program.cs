@@ -84,9 +84,9 @@ namespace ClearPaint
                 image.RotateFlip(RotateFlipType.Rotate180FlipNone);
                 
                 if (isNewDir)
-                    image.Save(dir + "_new\\" + file, ImageFormat.Jpeg);
+                    image.Save(dir + "_new\\" + file, image.RawFormat);
                 else
-                    image.Save(dir + "\\" + file + ".new." + type.ToLower(), ImageFormat.Jpeg);
+                    image.Save(dir + "\\" + file + ".new." + type.ToLower(), image.RawFormat);
                 // Console.WriteLine("File Saved!");
             }
             catch (Exception ex)
