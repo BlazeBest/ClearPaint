@@ -7,4 +7,4 @@ Transfer a picture or a folder with pictures to ClearPaint.exe and a lightweight
 
 # Ideas or suggestions
 > Discord: be4v_dev
-> Group: https://discord.gg/8mMGM43
+> Group: https://www.icefrag.ru
